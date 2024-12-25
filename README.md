@@ -12,7 +12,72 @@
 
 **PROJECT** :BMI TRACKER APP
 
-This project is a Body Mass Index (BMI) Calculator built using the Streamlit library, which provides a user-friendly web interface for health monitoring. Below is the breakdown of the project based on its key components:
+This project is a Body Mass Index (BMI) Calculator built using the Streamlit library, which provides a user-friendly web interface for health monitoring.
 
+Below is the breakdown of the project based on its key components:
 
+1)**Streamlit Library**
 
+The app is developed using the Streamlit library, which enables the creation of interactive web apps in Python with minimal effort.
+
+2)**BMI Calculation**
+Feature: Calculates BMI based on the user-provided weight and height values, adjusted according to the selected height format.
+Formula:
+For cms: 
+BMI
+=
+weight
+(
+height
+/
+100
+)
+2
+BMI= 
+(height/100) 
+2
+ 
+weight
+​
+ 
+For meters: 
+BMI
+=
+weight
+height
+2
+BMI= 
+height 
+2
+ 
+weight
+​
+ 
+For feet: 
+BMI
+=
+weight
+(
+height
+/
+3.28
+)
+2
+BMI= 
+(height/3.28) 
+2
+ 
+weight
+
+3)**BMI Interpretation**
+Feature: Interprets the calculated BMI and provides feedback on the user's health status.
+Categories:
+< 16: Extremely Underweight
+16–18.5: Underweight
+18.5–25: Healthy
+25–30: Overweight
+> 30: Obese
+
+![Screenshot (163)](https://github.com/user-attachments/assets/7cf4dc38-5882-411e-9d8f-5fb7e9277065)
+
+​
