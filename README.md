@@ -21,12 +21,12 @@ Below is the breakdown of the project based on its key components:
 The app is developed using the Streamlit library, which enables the creation of interactive web apps in Python with minimal effort.
 
 2)**BMI Calculation**
+
 Feature: Calculates BMI based on the user-provided weight and height values, adjusted according to the selected height format.
+
 Formula:
 For cms: 
-BMI
-=
-weight
+BMI=weight
 (
 height
 /
