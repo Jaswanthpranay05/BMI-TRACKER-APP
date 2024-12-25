@@ -24,50 +24,8 @@ The app is developed using the Streamlit library, which enables the creation of 
 
 Feature: Calculates BMI based on the user-provided weight and height values, adjusted according to the selected height format.
 
-Formula:
-For cms: 
-BMI=weight
-(
-height
-/
-100
-)
-2
-BMI= 
-(height/100) 
-2
- 
-weight
-​
- 
-For meters: 
-BMI
-=
-weight
-height
-2
-BMI= 
-height 
-2
- 
-weight
-​
- 
-For feet: 
-BMI
-=
-weight
-(
-height
-/
-3.28
-)
-2
-BMI= 
-(height/3.28) 
-2
- 
-weight
+![Screenshot 2024-12-25 173136](https://github.com/user-attachments/assets/e0f21eca-1015-4ddd-b7c3-abfb751eafdf)
+
 
 3)**BMI Interpretation**
 Feature: Interprets the calculated BMI and provides feedback on the user's health status.
